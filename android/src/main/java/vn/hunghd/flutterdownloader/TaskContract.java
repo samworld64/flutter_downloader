@@ -2,7 +2,7 @@ package vn.hunghd.flutterdownloader;
 
 import android.provider.BaseColumns;
 
-public final class TaskContract {
+public class TaskContract {
 
     private TaskContract() {}
 
@@ -19,6 +19,7 @@ public final class TaskContract {
         public static final String COLUMN_NAME_HEADERS = "headers";
         public static final String COLUMN_NAME_SHOW_NOTIFICATION = "show_notification";
         public static final String COLUMN_NAME_OPEN_FILE_FROM_NOTIFICATION = "open_file_from_notification";
+        public static final String COLUMN_NAME_NOTIFICATION_TITLE = "notification_title";
         public static final String COLUMN_NAME_TIME_CREATED = "time_created";
     }
 
